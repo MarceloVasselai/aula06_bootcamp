@@ -1,16 +1,17 @@
 [project]
-name = "aula06_bootcamp"
+name = "aula06-bootcamp"
 version = "0.1.0"
-description = "Exercícios 06 do Bootcamp Python 6-10"
+description = "licão 6 python bootcamp 6-10"
 authors = [
     {name = "Marcelo Vasselai",email = "mvasselai@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "pandas (>=2.2.3,<3.0.0)"
 ]
 
 
-[build-system]  
+[build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
